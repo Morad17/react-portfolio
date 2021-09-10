@@ -1,0 +1,86 @@
+@import './hero';
+@import './home';
+@import './sideNavBar';
+@import './about';
+@import './blog';
+@import './projects';
+@import './skills';
+@import './contact';
+
+
+
+
+/*----Global-----*/
+ .basic-button{
+    font-size: 20px;
+    color: #efd3a6;
+    text-decoration: none;
+    width: 150px;
+    border: 2px solid #efd3a6;
+    border-radius: 30px;
+    line-height: 38px;
+    padding: 6px;
+};
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #191919 ;
+    color:white;
+}
+.App{
+    overflow-x: hidden;
+}
+
+.page{
+    height: 100vh;
+    width:100vw;
+}
+.row{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.main-title{
+    color: white;
+    font-size: 6.5em;
+}
+.main-text{
+    font-size: 17px;
+    color: white;
+    line-height: 1.5;
+}
+/*---Scrool Styling ---*/
+
+body::-webkit-scrollbar{
+    width: .4vw
+}
+body::-webkit-scrollbar-track{
+    background-color:#191919 ;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#dbb852
+}
+
+/*------home-----*/
+
+.content{
+    padding-left: 6vw;
+
+    .divider{
+        margin-top: 1vw;
+    }
+}
+
+/*----Colors:
+Turquoise: #024251
+
+---*/
+

@@ -1,0 +1,38 @@
+
+.skills-section{
+    
+    .main-title{
+        font-size: 4.5em;
+    }
+    .main-text{
+        a{
+            text-decoration: none;
+            color: white;   
+        }
+    }
+
+    .row{
+        display: inline-flex;
+    }
+    .progress-group{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10px;
+
+        span{
+            padding-right: 10px;
+        }
+        progress{
+            min-width:25vw;
+            max-width:25vw;
+        }
+    }
+    .row{
+        margin-left: 4vw;
+        margin-top: 19vh;
+    }
+    .skills-row{
+        margin-left: 0vw;
+    }
+}

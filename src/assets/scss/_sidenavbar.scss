@@ -1,0 +1,63 @@
+
+.sidenav{
+    height: 100vh;
+    width: 3vw;
+    background-color: #0e0e0e;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 5px;
+    position: fixed;
+    a{
+        text-decoration: none;
+    }
+    ul{
+        margin-top: 25vh;
+        padding-left: 5px;
+    }
+    li{
+        padding: 6px 0;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .sidenav-icons{
+        svg{
+            font-size:25px;
+            color: white;
+        }
+        p{
+            color: white;
+            display: none;
+            padding-left: 2vw;
+            font-size: 19px;
+            
+        }
+    }
+    .logo{
+        margin: 0;
+        color: white;
+    }
+}
+
+.social-icons{
+    li{
+        padding: 6px;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+    }
+}
+
+
+/*-----Animations---*/
+.sidenav:hover{
+    width: 10vw;
+}
+
+.sidenav:hover .sidenav-icons p{
+    display: inline;
+    
+}

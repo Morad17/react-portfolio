@@ -1,0 +1,40 @@
+
+.hero{
+    padding: 10vw 0 0 0;
+
+    .basic-button{
+        margin-left: 30px;
+        color: white;
+        border-color: white;
+    }
+}
+.hero-name{
+    font-size: 7em;
+    margin: 0 10px 0;
+    color: #fafafa;
+}
+.hero-title{
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: 600;
+    color:gray;
+}
+.scroll-down{
+
+    justify-content: flex-end;
+    margin-left: 83vw;
+    display: flex;
+
+    a{
+        text-decoration: none;
+        color: white;
+        padding-right: 30px;
+        margin-top: 25vh;
+        margin-bottom: 6vh;
+    }
+
+    span{
+        display: block;
+        padding-left: 36px;
+    }
+}

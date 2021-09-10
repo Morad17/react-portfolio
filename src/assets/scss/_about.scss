@@ -1,0 +1,26 @@
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .about-text{
+        width: 30%;
+        padding-left: 7vw;
+    h1{
+        margin-top: 0;
+    }    
+    }
+    .about-text, .about-image{
+        padding-top: 30vh;
+    }
+    .about-image{
+        padding-right: 26vw;
+    }
+    .profile-pic{
+        width: 300px
+    }
+    .main-text{
+        
+    }
+}
