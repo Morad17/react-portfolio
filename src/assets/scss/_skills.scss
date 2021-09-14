@@ -35,4 +35,16 @@
     .skills-row{
         margin-left: 0vw;
     }
+    .tech-row{
+        
+        display:flex;
+        justify-content: space-between;
+        .tech-icon{
+            padding: 10px;
+
+            img{
+                width:75px;
+            }
+        }
+    }
 }

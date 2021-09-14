@@ -3,6 +3,8 @@ import ProgressBar from './progressBar'
 
 import * as FaIcons from "react-icons/fa"
 
+import mongoDb from "../assets/images/mongoDb.png"
+
 const Skills = () => {
     return (
         <section id="skills-section" className="skills-section page">
@@ -50,29 +52,34 @@ const Skills = () => {
                             <span>Django</span>
                             <ProgressBar value={60} max={100}/>
                         </div>
-                    </div>
-                    <div className="">
                         <h2>Tech Stacks Used</h2>
-                        <div className="">
-                            <img src="https://img.icons8.com/ios-filled/50/ffffff/css3.png"/>
-                            <p>CSS</p>
+                        <div className="tech-row">
+                            <div className="tech-icon">
+                                <img src="https://img.icons8.com/ios-filled/50/ffffff/css3.png"/>
+                                <p>CSS</p>
+                            </div>
+                            <div className="tech-icon">
+                                <img src="https://img.icons8.com/ios/50/ffffff/javascript--v1.png"/>
+                                <p>JAVASCRIPT</p>
+                            </div>
+                            <div className="tech-icon">
+                                <img src="https://img.icons8.com/ios/50/ffffff/react-native--v1.png"/>
+                                <p>REACT</p>
+                            </div>
                         </div>
-                        <div className="">
-                            <img src="https://img.icons8.com/ios/50/ffffff/javascript--v1.png"/>
-                            <p>JAVASCRIPT</p>
-                        </div>
-                        <div className="">
-                        <img src="https://img.icons8.com/ios/50/ffffff/react-native--v1.png"/>
-                            
-                            <p>DJANGO</p>
-                        </div>
-                        <div className="">
-
-                            <p>PYTHON</p>
-                        </div>
-                        <div className="">
-                        <img src="https://img.icons8.com/ios/50/ffffff/django.png"/>
-                            <p>DJANGO</p>
+                        <div className="tech-row">
+                            <div className="tech-icon">
+                                <img src={mongoDb}/>
+                                <p>MONGODB</p>
+                            </div>
+                            <div className="tech-icon">
+                                <img src="https://img.icons8.com/color/48/4a90e2/python--v1.png"/>
+                                <p>PYTHON</p>
+                            </div>
+                            <div className="tech-icon">
+                                <img src="https://img.icons8.com/ios/50/ffffff/django.png"/>
+                                <p>DJANGO</p>
+                            </div>
                         </div>
                     </div>
                 </div>
