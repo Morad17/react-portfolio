@@ -1,9 +1,11 @@
 import React from 'react'
 import ProgressBar from './progressBar'
 
+import * as FaIcons from "react-icons/fa"
+
 const Skills = () => {
     return (
-        <div className="skills-section page">
+        <section id="skills-section" className="skills-section page">
             <div className="">
                 <div className="row">
                     <div>
@@ -49,12 +51,36 @@ const Skills = () => {
                             <ProgressBar value={60} max={100}/>
                         </div>
                     </div>
+                    <div className="">
+                        <h2>Tech Stacks Used</h2>
+                        <div className="">
+                            <img src="https://img.icons8.com/ios-filled/50/ffffff/css3.png"/>
+                            <p>CSS</p>
+                        </div>
+                        <div className="">
+                            <img src="https://img.icons8.com/ios/50/ffffff/javascript--v1.png"/>
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div className="">
+                        <img src="https://img.icons8.com/ios/50/ffffff/react-native--v1.png"/>
+                            
+                            <p>DJANGO</p>
+                        </div>
+                        <div className="">
+
+                            <p>PYTHON</p>
+                        </div>
+                        <div className="">
+                        <img src="https://img.icons8.com/ios/50/ffffff/django.png"/>
+                            <p>DJANGO</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="row timeline">
 
             </div>
-        </div>
+        </section>
     )
 }
 
