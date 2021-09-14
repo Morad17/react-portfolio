@@ -4,7 +4,7 @@ import profilePic from '../assets/images/profile-pic.png'
 
 const About = () => {
     return (
-        <div className="about-section page">
+        <section id="about-section" className="about-section page">
             <div className="about-text">
                 <h1 className="main-title">About Me</h1>
                 <p className="main-text">
@@ -19,7 +19,7 @@ const About = () => {
                 <img className="profile-pic" src={ profilePic }/>
             </div>
             
-        </div>
+        </section>
     )
 }
 

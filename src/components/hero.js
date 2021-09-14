@@ -6,9 +6,9 @@ const Hero = () => {
             <h1 className="hero-name">Morad</h1>
             <h1 className="hero-name">El Bouchikhi</h1>
             <p className="hero-title">Full Stack Developer</p>
-            <a href="#" className="basic-button">Get In Touch</a>
+            <a href="#contact-section" className="basic-button">Get In Touch</a>
             <div class="scroll-down">
-                <a href="#about_section" >Scroll Down <span> &#8595;</span></a>
+                <a href="#about-section" >Scroll Down <span> &#8595;</span></a>
             </div>
         </div>
     )

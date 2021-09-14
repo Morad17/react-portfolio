@@ -2,9 +2,9 @@ import React from 'react'
 
 const Blog = () => {
     return (
-        <div className="blog-section page">
+        <section id="blog-section" className="blog-section page">
             
-        </div>
+        </section>
     )
 }
 

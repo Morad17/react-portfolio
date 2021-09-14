@@ -9,15 +9,15 @@ import Contact from "../components/contact";
 
 const Home = () => {
     return (
-        <div className="home">
+        <div id="home" className="home">
             <div className="">
                 <SideNavbar />
             </div>
             <div className="content">
                 <Hero />
-                <hr className="divider"/>
+                {/* <hr className="divider"/> */}
                 <About />
-                <hr className="divider"/>
+                {/* <hr className="divider"/> */}
                 <Skills />
             </div>
         </div>
