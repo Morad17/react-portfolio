@@ -2,9 +2,11 @@
 .skills-section{
     
     .main-title{
-        font-size: 4.5em;
+        font-size: 4.3em;
+        margin: .75vh 0;
     }
     .main-text{
+        font-size: 15px;
         a{
             text-decoration: none;
             color: white;   
@@ -29,8 +31,8 @@
         }
     }
     .row{
-        margin-left: 11vw;
-        margin-top: 8vh;
+        margin-left: 10vw;
+        margin-top: 16vh;
     }
     .skills-row{
         margin-left: 0vw;
@@ -43,8 +45,16 @@
             padding: 10px;
 
             img{
-                width:75px;
+                width:50px;
             }
+        }
+    }
+
+    .timeline{
+        width: 80%;
+
+        hr{
+            width:100%;
         }
     }
 }

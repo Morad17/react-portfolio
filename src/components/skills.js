@@ -1,6 +1,7 @@
 import React from 'react'
 import ProgressBar from './progressBar'
-
+import Timeline from './timeline'
+import TimelineData from './timelineData'
 import * as FaIcons from "react-icons/fa"
 
 import mongoDb from "../assets/images/mongoDb.png"
@@ -11,7 +12,8 @@ const Skills = () => {
             <div className="">
                 <div className="row">
                     <div>
-                        <h1 className="main-title">Skills & Experience</h1>
+                        <h1 className="main-title">Skills &</h1>
+                        <h1 className="main-title">Experience</h1>
                         <p className="main-text">
                             From learing to write the first html code, to creating
                             complex react and django e-commerce projects, I have always
@@ -85,7 +87,19 @@ const Skills = () => {
                 </div>
             </div>
             <div className="row timeline">
-
+                <div className="">
+                    {
+                        TimelineData.map((data, index) =>{
+                            <div className="timeline-box">
+                                <div className="timeline-title"><h1>{data.title}</h1></div>
+                                <div className="timeline-date">{data.date}</div>
+                                <div className="timeline-content">{data.content}</div>
+                                <span className="timeline-point"></span>
+                            </div>
+                        })
+                    }
+                </div>
+                <hr />
             </div>
         </section>
     )
