@@ -53,9 +53,18 @@
     .timeline{
         width: 80%;
         margin-left: 10vw;
+
+        .timeline-heading{
+            text-align: center;
+            padding: 3vh 0;
+        }
+
         hr{
-            width:100%;
+            width:70%;
             margin-top:20px;
+            position: fixed;
+            bottom: 19vh;
+            z-index: -10;
         }
         .timeline-container{
             display:flex;
@@ -68,6 +77,9 @@
         text-align: center;
         width: 150px;
         height: 125px;
+        border: 3px solid gray;
+        background-color: #024251;
+        padding: 15px;
         .timeline-content{
             display:block;
         }

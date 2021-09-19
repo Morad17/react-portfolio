@@ -87,6 +87,7 @@ const Skills = () => {
                 </div>
             </div>
             <div className="timeline">
+                <h2 className="timeline-heading">Timeline</h2>
                 <div className="timeline-container">
                     {
                         TimelineData.map((data, index) =>(
