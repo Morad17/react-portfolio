@@ -86,17 +86,14 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div className="row timeline">
-                <div className="">
+            <div className="timeline">
+                <div className="timeline-container">
                     {
-                        TimelineData.map((data, index) =>{
-                            <div className="timeline-box">
-                                <div className="timeline-title"><h1>{data.title}</h1></div>
-                                <div className="timeline-date">{data.date}</div>
-                                <div className="timeline-content">{data.content}</div>
-                                <span className="timeline-point"></span>
-                            </div>
-                        })
+                        TimelineData.map((data, index) =>(
+                            <Timeline data={data} key={index} />
+                            
+                            )
+                        )
                     }
                 </div>
                 <hr />

@@ -32,7 +32,7 @@
     }
     .row{
         margin-left: 10vw;
-        margin-top: 16vh;
+        margin-top: 13vh;
     }
     .skills-row{
         margin-left: 0vw;
@@ -52,9 +52,57 @@
 
     .timeline{
         width: 80%;
-
+        margin-left: 10vw;
         hr{
             width:100%;
+            margin-top:20px;
         }
+        .timeline-container{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+
+    .timeline-box{
+        text-align: center;
+        width: 150px;
+        height: 125px;
+        .timeline-content{
+            display:block;
+        }
+
+        
+    }
+    // .timeline-box:after{
+    //     content: "";
+    //     position: absolute;
+    //     width: 50px;
+    //     background-color: aliceblue;
+    //     transform: rotate(90deg);
+    //     height: 2px;
+    //     left: 225px;
+    //     margin-top: 33px;
+    //     }
+    .timeline-point{
+            
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid gray;
+        background-color: whitesmoke;
+        }
+
+        // .timeline-point:after {
+        //     content: '';
+        //     position: absolute;
+        //     left: -10px;
+        //     top: 47px;
+        //     width: 0;
+        //     height: 0;
+        //     border: 10px solid transparent;
+        //     border-top: 29px solid whitesmoke;
+        //   }
+        // }
     }
 }

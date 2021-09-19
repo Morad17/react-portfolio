@@ -19,6 +19,9 @@ const Home = () => {
                 <About />
                 {/* <hr className="divider"/> */}
                 <Skills />
+                <Projects />
+                <Blog />
+                <Contact />
             </div>
         </div>
     )

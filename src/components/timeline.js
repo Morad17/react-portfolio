@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Timeline = ({ title, date, content }) => {
+const Timeline = ({ data }) => {
     return (
         <div className="timeline-box">
-            <div className="timeline-title">{title}</div>
-            <div className="timeline-date">{date}</div>
-            <div className="timeline-content">{content}</div>
+            <div className="timeline-date">{data.date}</div>
+            <div className="timeline-title">{data.title}</div>
+            <div className="timeline-content">{data.content}</div>
             <span className="timeline-point"></span>
         </div>
     )
