@@ -55,15 +55,12 @@
         margin-left: 10vw;
 
         .timeline-heading{
-            text-align: center;
-            padding: 3vh 0;
+            padding: 1vh 0;
         }
 
         hr{
-            width:70%;
-            margin-top:20px;
-            position: fixed;
-            bottom: 19vh;
+            width:80%;
+            margin-top:-75px;
             z-index: -10;
         }
         .timeline-container{
@@ -79,7 +76,8 @@
         height: 125px;
         border: 3px solid gray;
         background-color: #024251;
-        padding: 15px;
+        padding: 10px;
+        border-radius: 15%;
         .timeline-content{
             display:block;
         }
@@ -96,14 +94,14 @@
     //     left: 225px;
     //     margin-top: 33px;
     //     }
-    .timeline-point{
+    // .timeline-point{
             
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 2px solid gray;
-        background-color: whitesmoke;
-        }
+    //     width: 50px;
+    //     height: 50px;
+    //     border-radius: 50%;
+    //     border: 2px solid gray;
+    //     background-color: whitesmoke;
+    //     }
 
         // .timeline-point:after {
         //     content: '';
