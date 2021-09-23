@@ -9,7 +9,7 @@ import mongoDb from "../assets/images/mongoDb.png"
 const Skills = () => {
     return (
         <section id="skills-section" className="skills-section page">
-            <div className="">
+            <div className="progress-row">
                 <div className="row">
                     <div>
                         <h1 className="main-title">Skills &</h1>

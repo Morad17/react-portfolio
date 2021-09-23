@@ -15,11 +15,10 @@
 
     .row{
         display: inline-flex;
+        margin-left: 10vw;
+        margin-top: 13vh;
     }
     .progress-group{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         padding-bottom: 10px;
 
         span{
@@ -30,12 +29,13 @@
             max-width:25vw;
         }
     }
-    .row{
-        margin-left: 10vw;
-        margin-top: 13vh;
-    }
     .skills-row{
-        margin-left: 0vw;
+        margin-right: 17vw;
+    }
+    .progress-row{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15vh;
     }
     .tech-row{
         
@@ -51,7 +51,7 @@
     }
 
     .timeline{
-        width: 80%;
+        width: 70%;
         margin-left: 10vw;
 
         .timeline-heading{
