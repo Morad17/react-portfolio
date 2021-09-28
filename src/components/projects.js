@@ -4,7 +4,7 @@ import afkThumb from '../assets/images/afk-thumb.png'
 
 const Projects = () => {
     return (
-        <section className="projects-section page">
+        <section id="projects-section" className="projects-section page">
             <h1 className="project-heading">Project History</h1>
             <div className="project row">
                 <div className="p-row-1">
