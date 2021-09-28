@@ -1,14 +1,28 @@
-.projects-section{
+#projects-section{
+    margin-left: 15vw;
 
     .project-heading{
         font-size: 4.3em;
-        margin-left: 13vw;
+        // margin-left: 13vw;
     }
 
 
-    .p-row-1{
+    .project-row{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
         img{
-            width:400px;
+            width:23vw;
+        }
+        .p-row-1{
+            width:23vw;
+        }
+        .p-row-2{
+            padding: 0 10px;
+            width: 23vw;
+        }
+        .p-row-3{
+            width:23vw;
         }
     }
 }
