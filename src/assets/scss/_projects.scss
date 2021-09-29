@@ -1,28 +1,42 @@
 #projects-section{
-    margin-left: 15vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+    .p-heading-row{
+        margin-top: 20vh;
+    }
     .project-heading{
-        font-size: 4.3em;
+        margin: 2vh 0;
+        display: block;
+        font-size: 6em;
         // margin-left: 13vw;
     }
 
-
     .project-row{
+        margin-top: 20vh;
+
+        h2{
+            font-size: 2.2em;
+        }
+    }
+    .project-card-row{
         display:flex;
         flex-direction: row;
-        justify-content: center;
+       
         img{
-            width:23vw;
+            width:18vw;
         }
-        .p-row-1{
-            width:23vw;
+        .project-card-1, .project-card-3{
+            width:18vw;
         }
-        .p-row-2{
+        .project-card-2{
             padding: 0 10px;
-            width: 23vw;
+            width: 18vw;
         }
-        .p-row-3{
-            width:23vw;
+        .project-icon{
+            font-size: 3em;
         }
     }
 }
