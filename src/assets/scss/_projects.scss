@@ -15,7 +15,8 @@
     }
 
     .project-row{
-        margin-top: 20vh;
+        margin-top: 15vh;
+        margin-right: 10vw;
 
         h2{
             font-size: 2.2em;
@@ -30,13 +31,22 @@
         }
         .project-card-1, .project-card-3{
             width:18vw;
+            text-align: center;
+            border: 1px solid white;
         }
         .project-card-2{
-            padding: 0 10px;
+            margin: 0 10px;
             width: 18vw;
+            text-align: center;
+            border: 1px solid white;
         }
         .project-icon{
             font-size: 3em;
+        }
+        .code-links{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
         }
     }
 }

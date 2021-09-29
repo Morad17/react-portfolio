@@ -24,6 +24,10 @@ const Projects = () => {
                             <FaIcons.FaPython />
                             <DiIcons.DiJavascript1 />
                         </div>
+                        <div className="code-links">
+                            <a href="#" className="button-1">Code</a>
+                            <a href="#" className="button-1">Project</a>
+                        </div>   
                     </div>
                     <div className="project-card-2">
                         <img src={afkThumb} alt="afk-gamer"/>
@@ -34,6 +38,10 @@ const Projects = () => {
                             <DiIcons.DiJavascript1 />
                             <DiIcons.DiMongodb />
                         </div>
+                        <div className="code-links">
+                            <a href="#" className="button-1">Code</a>
+                            <a href="#" className="button-1">Project</a>
+                        </div>
                     </div>
                     <div className="project-card-3">
                     <img src={afkThumb} alt="afk-gamer"/>
@@ -43,6 +51,10 @@ const Projects = () => {
                             <FaIcons.FaReact />
                             <DiIcons.DiJavascript1 />
                             <DiIcons.DiMongodb />
+                        </div>
+                        <div className="code-links">
+                            <a href="#" className="button-1">Code</a>
+                            <a href="#" className="button-1">Project</a>
                         </div>
                     </div>
                     <div className="project-card-4"></div>
