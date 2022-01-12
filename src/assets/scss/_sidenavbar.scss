@@ -2,35 +2,46 @@
 .sidenav{
     height: 100vh;
     width: 3vw;
-    background-color: #0e0e0e;
-    margin-top: 0;
     padding-top: 0;
     padding-left: 5px;
     position: fixed;
+    text-align: center;
     a{
         text-decoration: none;
     }
+    //Border Starts Here//
     ul{
+        background-color: #000;
         margin-top: 25vh;
-        padding-left: 5px;
+        padding: 5px;
+        border-radius: 10px;
     }
     li{
-        padding: 6px 0;
+        padding: 8px 6px;
         list-style: none;
         text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
     }
 
     .sidenav-icons{
         svg{
-            font-size:25px;
+            font-size:30px;
             color: white;
         }
         p{
+            position: absolute;
             color: white;
-            display: none;
-            padding-left: 2vw;
-            font-size: 19px;
-            
+            font-size: 24px;
+            padding: 0;
+            left: 3.5vw;
+            background: #000;
+            padding: 8px;
+            border-radius: 10px;
+            transition: ease-in-out 1s;
+            opacity: 0;
         }
     }
     .logo{
@@ -39,25 +50,18 @@
     }
 }
 
-.social-icons{
-    li{
-        padding: 6px;
-    }
 
-    a{
-        text-decoration: none;
-        font-size: 17px;
-        color: white;
-    }
-}
 
 
 /*-----Animations---*/
-.sidenav:hover{
-    width: 10vw;
-}
+.sidenav{
+    li:hover{ 
+        svg{
+            color: #dbb852;
+        }
+        p{
+        opacity: 1;
+        }
 
-.sidenav:hover .sidenav-icons p{
-    display: inline;
-    
+            }
 }
