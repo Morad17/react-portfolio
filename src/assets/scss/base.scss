@@ -71,11 +71,30 @@ body::-webkit-scrollbar-thumb{
 /*------home-----*/
 
 .content{
-    padding-left: 10vw;
+    
 
     .divider{
         margin-top: 1vw;
     }
+}
+
+// Section backgrounds
+
+.about-section{
+    background-color: gray;
+}
+.skills-section{
+    
+    background-color: rgb(24, 24, 24);
+}
+.projects-section{
+    background-color: gray;
+}
+.blog-section{
+    background-color:gray;
+}
+.contact-section{
+    background-color:  #fafafa;
 }
 
 
