@@ -82,19 +82,24 @@ body::-webkit-scrollbar-thumb{
 
 .about-section{
     background-color: gray;
+    z-index:-111;
 }
 .skills-section{
     
     background-color: rgb(24, 24, 24);
+    z-index:-111;
 }
 .projects-section{
     background-color: gray;
+    z-index:-111;
 }
 .blog-section{
     background-color:gray;
+    z-index:-111;
 }
 .contact-section{
     background-color:  #fafafa;
+    z-index:-111;
 }
 
 

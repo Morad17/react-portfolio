@@ -4,6 +4,25 @@
     flex-direction: row;
     justify-content: space-between;
     
+    .box-wrapper-1{
+        height: 50vh;
+        width: 80vw;
+        background-color: deepskyblue;
+        position: absolute;
+        z-index: 1;
+        left: 4.5vw;
+        top: 75.5vw;
+    }
+    .box-wrapper-2{
+        height: 50vh;
+        width: 80vw;
+        left: 6vw;
+        top: 146vh;
+        background-color: #76ceeb;
+        position: absolute;
+        z-index: 11;
+    }
+    
     .about-text{
         width: 30%;
         padding-left: 7vw;
@@ -13,6 +32,7 @@
     }
     .about-text, .about-image{
         padding-top: 30vh;
+        z-index: 111;
     }
     .about-image{
         padding-right: 26vw;
