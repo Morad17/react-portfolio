@@ -1,46 +1,106 @@
 
 .about-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    .box-wrapper-1{
-        height: 50vh;
-        width: 80vw;
-        background-color: deepskyblue;
-        position: absolute;
-        z-index: 1;
-        left: 4.5vw;
-        top: 75.5vw;
-    }
-    .box-wrapper-2{
-        height: 50vh;
-        width: 80vw;
-        left: 6vw;
-        top: 146vh;
-        background-color: #76ceeb;
-        position: absolute;
-        z-index: 11;
-    }
-    
-    .about-text{
-        width: 30%;
-        padding-left: 7vw;
-    h1{
-        margin-top: 0;
-    }    
-    }
-    .about-text, .about-image{
-        padding-top: 30vh;
-        z-index: 111;
-    }
-    .about-image{
-        padding-right: 26vw;
-    }
-    .profile-pic{
-        width: 300px
-    }
-    .main-text{
+    .about-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         
+        .box-wrapper-1{
+            height: 66vh;
+            width: 85vw;
+            background-color: #000;
+            position: absolute;
+            z-index: 1;
+            left: 6vw;
+            top: 69.5vw;
+        }
+        .box-wrapper-2{
+            height: 66vh;
+            width: 85vw;
+            left: 8vw;
+            top: 134vh;
+            background-color: rgba(219, 184, 82, 0.9);
+            position: absolute;
+            z-index: 11;
+        }
+        
+        .about-text{
+            padding-top: 17vh;
+            z-index: 111;
+            padding-left: 12vw;
+            width: 30%;
+            h1{
+                margin: 0 0 5vh 0;
+                padding: 0;
+            }
+            .main-text{
+                font-size: 20px;
+                color: #292634;
+                line-height: 1.5;
+                margin-bottom: 6vh
+            }    
+        }
+        .about-image{
+            padding-top: 28vh;
+            padding-right: 26vw;
+            z-index: 111;
+        }
+        .profile-pic{
+            width: 300px
+        }
+        .main-text{
+            
+        }
+    }
+    .tech-row{
+        
+        display:flex;
+        flex-direction: row;
+        padding-right: 5vw;
+        padding-top: 5vh;
+        z-index: 1111;
+        justify-content: space-around;
+
+        .heading{
+            display: flex;
+            flex-direction: column;
+            margin-right: 35px;
+            
+            h2{
+            font-size: 40px;
+            margin: 0;
+            padding: 0 10px;
+            color: #292634;
+            }
+        }
+        .current-tech-row{
+            z-index: 111;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+                width: 48%;
+                height: max-content;
+            }
+        }
+        .other-tech-row{
+            z-index: 111;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .tech-icon{
+            padding: 10px 14px;
+
+            img{
+                width:100px;
+            }
+            p{
+                padding: 0;
+                margin: 0;
+                text-align: center;
+            }
+        }
     }
 }
