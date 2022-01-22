@@ -1,5 +1,4 @@
 import profilePic from '../assets/images/profile-pic.png'
-import mongoDb from "../assets/images/mongoDb.png"
 
 const About = () => {
     return (
@@ -39,12 +38,16 @@ const About = () => {
                                 <p>PHP</p>
                             </div>
                             <div className="tech-icon">
-                                <img src="https://img.icons8.com/color/48/4a90e2/python--v1.png"/>
+                                <img src="https://img.icons8.com/fluency/96/000000/python.png"/>
                                 <p>PYTHON</p>
                             </div>
                             <div className="tech-icon">
-                                <img src="https://img.icons8.com/ios/50/ffffff/django.png"/>
+                                <img src="https://img.icons8.com/ios/100/000000/django.png"/>
                                 <p>DJANGO</p>
+                            </div>
+                            <div className="tech-icon">
+                                <img src="https://img.icons8.com/ios/100/000000/mysql-logo.png"/>
+                                <p>MySql</p>
                             </div>
                         </div>
                 </div>
