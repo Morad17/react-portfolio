@@ -90,7 +90,7 @@ body::-webkit-scrollbar-thumb{
     z-index:-111;
 }
 .projects-section{
-    background-color: gray;
+    background-color: #fafafa;
     z-index:-111;
 }
 .blog-section{
@@ -104,13 +104,15 @@ body::-webkit-scrollbar-thumb{
 
 
 
-/*----Colors:
-Turquoise: #024251
-dark blue: #024251;
-Gold: #dbb852;
----*/
+/*----Colors:---*/
+
+$turquoise: #024251;
+$gold: #dbb852;
+$dark-gray: #292634;
+
 
 .button-1{
+    color:$gold;
     margin: 0 10px;
     padding: 3px 12px;
     font-size: 1.3em;

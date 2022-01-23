@@ -47,8 +47,7 @@ const Skills = () => {
                     </div>
             </div>
             </div>
-            <div className="timeline-skills-row">
-            <div className="timeline">
+            <div className="timeline-row">
                 <div id="card-1" className="timeline-card">
                     <h3 className="title">
                         International Business Degree
@@ -85,8 +84,6 @@ const Skills = () => {
                         Using Python and Django, called <a href="http://afk-gamer-herokuapp.com/">AFK Gamer</a>
                     </div>
                 </div>
-            </div>
-            
             </div>
         </section>
     )
