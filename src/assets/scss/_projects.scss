@@ -5,15 +5,12 @@
     justify-content: space-around;
     color: #292634;
 
-    .p-heading-row{
-        margin-top: 20vh;
-    }
     .project-heading{
-        margin: 2vh 0;
-        display: block;
-        font-size: 6em;
-        // margin-left: 13vw;
+        text-align: center;
+        font-size: 28px;
     }
+
+    
 
     .project-row{
         margin-top: 15vh;
@@ -26,9 +23,23 @@
     .project-card-row{
         display:flex;
         flex-direction: row;
-       
+
+       .project-header{
+        font-size: 25px;
+        background-color: #acacac;
+        border: 1px solid black;
+        }
         img{
             width:18vw;
+        }
+        .project-details{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #acacac;
+            align-items: center;
+            padding: 5px;
+            border: 1px solid black;
         }
         .project-card-1, .project-card-3{
             width:18vw;
@@ -42,12 +53,25 @@
             border: 1px solid white;
         }
         .project-icon{
-            font-size: 3em;
+            font-size: 42px;
+            align-items: center;
+display: flex;
         }
         .code-links{
             display: flex;
             justify-content: center;
-            padding-bottom: 10px;
+
+            .project-button{
+                margin: 0 4px;
+                padding: 4px 10px;
+                font-size: 22px;
+                text-decoration: none;
+                background: #292634;
+                color: white;
+                border-radius: 3px;
+                align-items: center;
+                display: flex;
+            }
         }
     }
 }
