@@ -12,25 +12,19 @@ const Skills = () => {
             <div className="progress-row">
                 <h1 className="main-title">Skills &</h1>
                 <h1 className="main-title">Experience</h1>
-                <p className="main-text">
+                <p className="main-text main-text-1">
                     From learing to write the first html code, to creating
                     complex react and django e-commerce projects, I have always
                     been keen to always learn new languages. My skills lie in designing a unique and 
                     visually aesthetic project and applying the right applications, to achieve the
-                    perfect user experience
-                </p>
-                <p className="main-text">
-                    From graduating with a Full Stack Web Diploma, I have move to learing
-                    new librarys, predominantly React. Whilst having Front-End and Back-End
-                    skills, I focus more on Front End.
+                    perfect user experience.Whilst having Front-End and Back-End skills, I focus more 
+                    on Front End. As of 2021 my focus is mainly on React Libraries.
                 </p>
                 <p className="main-text">
                     You can view my <a href="https://www.linkedin.com/in/morad-elbouchikhi/">Linkedin</a> profile
                     for more details or <a href="#">Contact Me</a> though this page.
                 </p>
-            </div>
-            <div className="timeline-skills-row">
-            <div className="skill-bar">
+                <div className="skill-bar">
                     <div className="progress-group">
                         <span>Css</span>
                         <ProgressBar value={95} max={100}/>
@@ -52,8 +46,10 @@ const Skills = () => {
                         <ProgressBar value={60} max={100}/>
                     </div>
             </div>
+            </div>
+            <div className="timeline-skills-row">
             <div className="timeline">
-                <div className="timeline-card">
+                <div id="card-1" className="timeline-card">
                     <h3 className="title">
                         International Business Degree
                     </h3>
@@ -65,7 +61,7 @@ const Skills = () => {
                         Anlia Ruskin University
                     </div>
                 </div>
-                <div className="timeline-card">
+                <div id="card-2" className="timeline-card">
                     <h3 className="title">
                         Full Stack Web Diploma
                     </h3>
@@ -77,7 +73,7 @@ const Skills = () => {
                         Edinburgh University. 
                     </div>
                 </div>
-                <div className="timeline-card">
+                <div id="card-3" className="timeline-card">
                     <h3 className="title">
                         First Large Project
                     </h3>

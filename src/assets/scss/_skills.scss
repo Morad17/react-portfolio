@@ -3,57 +3,113 @@
     
     display: flex;
     flex-direction: row;
-    padding-left: 8vw;
-    padding-top: 23vh;
+    padding-left: 10vw;
+    padding-top: 8vh;
 
+    a{
+        text-decoration: none;
+        color: #dbb852;
+    }
     .main-title{
         font-size: 4.3em;
         margin: .75vh 0;
     }
     .main-text{
-        font-size: 15px;
-        a{
-            text-decoration: none;
-            color: white;   
-        }
+        font-size: 18px;
     }
-
+    .main-text-1{
+        margin-top: 4vh;
+        line-height: 1.7;
+    }
     .progress-group{
         padding-bottom: 10px;
 
         span{
             padding-right: 10px;
+            font-size: 19px;
         }
         progress{
-            min-width:35vw;
-            max-width:35vw;
+            min-width:34vw;
+            max-width:34vw;
         }
-    }
-    .skill-bar{
-        margin-right: 10vw;
     }
     .progress-row{
         padding-right: 19vw;
+        width:35%;
     }
 
     .timeline{
         width: 70%;
 
-    .timeline-card{
-        text-align: center;
-        width: 20vw;
-        height: 125px;
-        border: 1px solid gray;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    
-        .date{
-            margin:0;
+        #card-2{
+            margin-top: 17vh;
+        }
+        #card-3{
+            margin-top: 34vh;
+        }
+
+        .timeline-card{
+            z-index: 1111;
+            text-align: center;
+            width: 20vw;
+            height: 125px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            background: inherit;
+            position: absolute;
+            overflow: hidden;
+            
+            .title{
+                font-size: 23px;
+                margin: 5px 0 28px 0;
+                z-index: 1111;
+            }
+            .date{
+                margin:0;
+                color:#a6a6a6;
+                z-index: 1111;
+            }
+            .description{
+                color:#a6a6a6;
+                z-index: 1111;
+            }
+        }
+        .timeline-card:before{
+            content: "";
+            position: absolute;
+            left: -25px;
+            top: -25px;
+            bottom: 0;
+            right: 0;
+            box-shadow: inset 0 0 0 3000px rgb(47, 47, 47);
+            filter: blur(10px);
+
+        }
+    }
+    .skill-bar{
+        // Target Progress Bar //
+        progress {
+            border: none;
+            background: #2f2f2f;
+            border-radius: 15px;
+            height: 8px;
+        }
+        // Cross compatibility //
+        progress::-moz-progress-bar {
+            background: #dbb852;
+            border-radius: 10px;
         }
         
-    }
-    // background-color: #024251;
+        progress::-webkit-progress-value {
+            background: #dbb852;
+            border-radius: 10px;
+        }
+        
+        progress::-webkit-progress-bar {
+            background: #2f2f2f;
+            border-radius: 10px;
+        }
     }
 }
