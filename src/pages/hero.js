@@ -61,8 +61,8 @@ const Hero = () => {
                     <p className="hero-title">Full Stack Developer</p>
                     <ul className="social-icons">
                             <li><a href="https://github.com/Morad17"><FaIcons.FaGithub /></a></li>
-                            <li><a href="/"><FaIcons.FaInstagram /></a></li>
-                            <li><a href="/"><FaIcons.FaLinkedin /></a></li>
+                            <li><a href="http://instagram.com/moradelbou"><FaIcons.FaInstagram /></a></li>
+                            <li><a href="http://linkedin.com/in/morad-elbouchikhi"><FaIcons.FaLinkedin /></a></li>
                     </ul>
                 <div className="contact-button">
                     <a href="#contact-section" className="basic-button">Get In Touch</a>

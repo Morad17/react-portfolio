@@ -7,7 +7,8 @@
 
     .project-heading{
         text-align: center;
-        font-size: 28px;
+        font-size: 40px;
+        text-decoration: underline;
     }
 
     
@@ -28,9 +29,11 @@
         font-size: 25px;
         background-color: #acacac;
         border: 1px solid black;
+        text-align: center;
         }
         img{
-            width:18vw;
+            width:21vw;
+            min-height: 200px;
         }
         .project-details{
             display: flex;
@@ -41,16 +44,13 @@
             padding: 5px;
             border: 1px solid black;
         }
-        .project-card-1, .project-card-3{
-            width:18vw;
+        .project-card-1,.project-card2, .project-card-3{
+            width:21vw;
             text-align: center;
             border: 1px solid white;
         }
         .project-card-2{
             margin: 0 10px;
-            width: 18vw;
-            text-align: center;
-            border: 1px solid white;
         }
         .project-icon{
             font-size: 42px;
