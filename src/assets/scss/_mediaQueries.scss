@@ -1,0 +1,48 @@
+// Media Query //
+
+// Ipad screen (largest Ipad pro) //
+
+@media ( max-width:840px ){
+
+    /*-------Sidenav-----*/
+
+    .sidenav{
+
+        .sidenav-icons{
+            padding-right: 45px;
+
+        p{
+            left:7vw;
+        } 
+        }
+    
+    }
+
+    /*-------About Section-----*/
+
+    .about-section{
+        .box-wrapper-1{
+            background-color: red;
+            height: 66vh;
+            width: 85vw;
+            position: absolute;
+            z-index: 1;
+            left: 6vw;
+            top: 173.5vw;
+        }
+        .box-wrapper-2{
+            top: 123vh;
+        }
+    }
+    
+    }
+    
+    // Mobile Screens //
+    
+    @media(max-width:480px){
+    
+        .about-section{
+  
+        }
+        
+        }

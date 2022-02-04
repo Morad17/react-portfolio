@@ -17,7 +17,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="about-image">
-                    <img className="profile-pic" src={ profilePic }/>
+                    <img className="profile-pic" src={ profilePic } alt="Profile"/>
                 </div>
             </div>
                 <div className="tech-row">
@@ -26,7 +26,7 @@ const About = () => {
                                 <h2>Current</h2>
                                 <h2>Stack</h2>
                             </div>
-                                <img src="https://www.crossshoresolutions.com/wp-content/uploads/2020/04/mern_icon.png"/>
+                                <img src="https://www.crossshoresolutions.com/wp-content/uploads/2020/04/mern_icon.png" alt="Mern Stack"/>
                         </div>
                         <div className="other-tech-row">
                         <div className="heading">
@@ -34,19 +34,19 @@ const About = () => {
                                 <h2>Stack</h2>
                             </div>
                             <div className="tech-icon">
-                                <img src="https://img.icons8.com/windows/160/000000/php-logo.png"/>
+                                <img src="https://img.icons8.com/windows/160/000000/php-logo.png" alt="PHP"/>
                                 <p>PHP</p>
                             </div>
                             <div className="tech-icon">
-                                <img src="https://img.icons8.com/fluency/96/000000/python.png"/>
+                                <img src="https://img.icons8.com/fluency/96/000000/python.png" alt="PYTHON"/>
                                 <p>PYTHON</p>
                             </div>
                             <div className="tech-icon">
-                                <img src="https://img.icons8.com/ios/100/000000/django.png"/>
+                                <img src="https://img.icons8.com/ios/100/000000/django.png" alt="DJANGO"/>
                                 <p>DJANGO</p>
                             </div>
                             <div className="tech-icon">
-                                <img src="https://img.icons8.com/ios/100/000000/mysql-logo.png"/>
+                                <img src="https://img.icons8.com/ios/100/000000/mysql-logo.png" alt="MySql"/>
                                 <p>MySql</p>
                             </div>
                         </div>

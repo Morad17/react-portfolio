@@ -23,8 +23,8 @@ const Projects = () => {
                                 <DiIcons.DiJavascript1 />
                             </div>
                             <div className="code-links">
-                                <a href="#" className="project-button">Code</a>
-                                <a href="#" className="project-button">Project</a>
+                                <a href="https://github.com/Morad17/ms4" className="project-button" target="_blank" rel="noopener noreferrer">Code</a>
+                                <a href="http://afk-gamer.herokuapp.com/" className="project-button" target="_blank" rel="noopener noreferrer">Project</a>
                             </div>
                         </div>
                     </div>
@@ -39,8 +39,8 @@ const Projects = () => {
                                 <DiIcons.DiJavascript1 />
                             </div>
                             <div className="code-links">
-                                <a href="#" className="project-button">Code</a>
-                                <a href="#" className="project-button">Project</a>
+                                <a href="https://github.com/Morad17/premier-league-ms3" className="project-button" target="_blank" rel="noopener noreferrer">Code</a>
+                                <a href="https://premier-league-ms3.herokuapp.com/" className="project-button" target="_blank" rel="noopener noreferrer">Project</a>
                             </div>
                         </div>
                     </div>
@@ -54,8 +54,8 @@ const Projects = () => {
                                 <DiIcons.DiCss3 />
                             </div>
                             <div className="code-links">
-                                <a href="#" className="project-button">Code</a>
-                                <a href="#" className="project-button">Project</a>
+                                <a target="_blank" href="https://github.com/Morad17/templates-restaurant" className="project-button"  rel="noopener noreferrer">Code</a>
+                                <a target="_blank" href="https://morad17.github.io/templates-restaurant/" className="project-button"  rel="noopener noreferrer">Project</a>
                             </div>
                         </div>
                     </div>

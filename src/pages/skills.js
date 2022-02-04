@@ -1,10 +1,5 @@
 import React from 'react'
 import ProgressBar from '../components/progressBar'
-import Timeline from '../components/timeline'
-import TimelineData from '../components/timelineData'
-import * as FaIcons from "react-icons/fa"
-
-import mongoDb from "../assets/images/mongoDb.png"
 
 const Skills = () => {
     return (
