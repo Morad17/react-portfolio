@@ -113,3 +113,53 @@
         }
     }
 }
+
+// Media Query //
+
+// Ipad screen (largest Ipad pro) //
+
+@media ( max-width:840px ){
+    
+    .skills-section{
+
+        .timeline-row{
+
+            #card-2{
+                margin-top: 22vh;
+            }
+
+            #card-3{
+                margin-top: 44vh;
+            }
+
+            .timeline-card{
+                width: 20vw;
+                height: 125px;
+                padding: 53px;
+
+                .title{
+                    font-size: 23px;
+                    margin: -25px 0 28px 0;
+                }
+                .date{
+                    margin: -20px 0 0 0;
+                }
+                .description{
+                    padding-top: 10px;
+                }
+            }
+        }
+    
+    }
+
+}
+    
+    // Mobile Screens //
+    
+    @media only screen and (max-width:480px){
+    
+        .skills-section{
+  
+        }
+        
+        }

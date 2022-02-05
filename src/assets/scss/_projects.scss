@@ -75,3 +75,45 @@ display: flex;
         }
     }
 }
+
+
+// Media Query //
+
+// Ipad screen (largest Ipad pro) //
+
+@media ( max-width:840px ){
+    
+    .projects-section{
+
+        .project-row{
+            margin-top: 0vh;
+            margin-right: 0vw;
+            display: block;
+
+            .project-card-row{
+                display: flex;
+                flex-direction: column;
+
+                .project-card-1,.project-card-2,.project-card-3{
+                    width: 50vw;
+
+                    img{
+                        width:50vw;
+                    }
+                }
+            }
+        }
+    
+    }
+
+}
+    
+    // Mobile Screens //
+    
+    @media only screen and (max-width:480px){
+    
+        .projects-section{
+  
+        }
+        
+        }
