@@ -66,3 +66,33 @@
 
             }
 }
+
+// Media Query //
+
+// Ipad screen (largest Ipad pro) //
+
+@media ( max-width:840px ){
+
+    .sidenav{
+
+        .sidenav-icons{
+            padding-right: 45px;
+
+        p{
+            left:7vw;
+        } 
+        }
+    
+    }
+    
+    }
+    
+    // Mobile Screens //
+    
+    @media only screen and (max-width:480px){
+    
+        .sidenav{
+  
+        }
+        
+        }

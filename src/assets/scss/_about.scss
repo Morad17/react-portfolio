@@ -105,3 +105,110 @@
 }
 
 
+// Media Query //
+
+// Ipad screen (largest Ipad pro) //
+
+@media ( max-width:840px ){
+    
+    .about-section{
+        .about-row{
+            .box-wrapper-1{
+
+                height: 66vh;
+                width: 74vw;
+                position: absolute;
+                z-index: 1;
+                left: 6vw;
+                top: 173.5vw;
+            }
+            .box-wrapper-2{
+                top: 123vh;
+                width: 76vw;
+                left: 8vw;
+            }
+
+            .about-text{
+                width: 100%;
+                padding-top: 17vh;
+                z-index: 111;
+                padding-left: 12vw;
+
+                h1{
+                    font-size:5em;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #292634;
+                    line-height: 1.5;
+                    margin-top: 0;
+                    padding-top: 4vh;
+                }
+            }
+
+            .about-image{
+                padding-top: 18vh;
+                padding-right: 0vw;
+                z-index: 111;
+                margin-right: 23vw;
+                margin-bottom: 0;
+                height: 150px;
+
+                .profile-pic{
+                    width: 150px;
+                }
+            }
+        .tech-row{
+            display: flex;
+            flex-direction: column;
+            padding-right: 5vw;
+            padding-top: 3vh;
+            z-index: 1111;
+            justify-content: center;
+
+            .current-tech-row{
+                z-index: 111;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-right: 33vw;
+                margin-bottom: 2vh;
+
+                img{
+                    width: 200px;
+                }
+
+            }
+
+            .other-tech-row{
+                z-index: 111;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-right: 7vw;
+                justify-content: center;
+
+                .tech-icon{
+                    img{
+                        width: 85px;
+                    }
+                }
+            }
+        }
+
+    }
+    }
+    
+    }
+    
+    // Mobile Screens //
+    
+    @media only screen and (max-width:480px){
+    
+        .about-section{
+  
+        }
+        
+        }
