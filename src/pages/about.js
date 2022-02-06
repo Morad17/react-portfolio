@@ -29,7 +29,7 @@ const About = () => {
                                 <img src="https://www.crossshoresolutions.com/wp-content/uploads/2020/04/mern_icon.png" alt="Mern Stack"/>
                         </div>
                         <div className="other-tech-row">
-                        <div className="heading">
+                            <div className="heading">
                                 <h2>Other</h2>
                                 <h2>Stack</h2>
                             </div>
