@@ -210,10 +210,78 @@
     
     // Mobile Screens //
     
-    @media only screen and (max-width:480px){
+    @media (max-width:480px){
     
         .about-section{
   
+            .about-row{
+
+                .box-wrapper-1{
+                    height: 80vh;
+                    width: 80vw;
+                    left: 3vw;
+                    top: 115vh;
+                }
+                .box-wrapper-2{
+
+                    top: 117vh;
+                    width: 80vw;
+                    left: 7vw;
+                    height: 80vh;
+                }
+                .about-text{
+                    padding-top: 0;
+                    padding-left: 11vw;
+
+                    .main-title{
+                        font-size: 3em;
+                    }
+                    .main-text{
+                        font-size: 16px;
+                        padding-top: 9vh;
+                    }
+                }
+                .about-image{
+                    padding-top: 5vh;
+                    padding-right: 0;
+                    margin-right: 15vw;
+                    .profile-pic{
+                        width: 125px;
+                    }
+                }
+
+                .tech-row{
+                    margin-right: 5vw;
+                    .current-tech-row{
+                        .heading{
+                            
+                            h2{
+                                font-size: 22px;
+                            }
+                        }
+                        img{
+
+                        }
+                    }
+                    .other-tech-row{
+                        margin-right: 3vw !important;
+                        .heading{
+                            margin-right: 10px;
+                            h2{
+                                font-size:22px ;
+                                padding: 0;
+                            }
+                        }
+
+                        .tech-icon{
+                            padding: 10px 6px;
+                            img{
+                                width: 60px;
+                            }
+                        }
+                    }   
+                }
+            }
         }
         
         }

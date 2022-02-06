@@ -216,7 +216,17 @@
   @media(max-width:480px){
   
       .hero{
+         
+        .hero-title-row{
 
-      }
+          .hero-name{
+            font-size: 3.5em;
+          }
+
+        }
       
+        .scroll-down{
+          display: none;
+        }
+      }
       }
