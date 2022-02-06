@@ -12,7 +12,6 @@ const SideNavbar = () => {
                     <li><a href="#blog-section"><FaIcons.FaBloggerB /></a><p>Blog</p></li>
                     <li><a href="#contact-section"><FaIcons.FaPaperPlane /></a><p>Contact</p></li>
                 </ul>
-                
             </nav>
     )
 }

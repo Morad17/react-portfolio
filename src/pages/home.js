@@ -6,12 +6,14 @@ import Blog from "../pages/blog";
 import Projects from "../pages/projects";
 import Skills from "../pages/skills";
 import Contact from "../pages/contact";
+import MobileNavbar from '../components/mobileNavbar';
 
 const Home = () => {
     return (
         <div id="home" className="home">
             <div className="">
                 <SideNavbar />
+                <MobileNavbar className="mobilenav-div"/>
             </div>
             <div className="content">
                 <Hero />

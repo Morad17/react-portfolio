@@ -17,7 +17,7 @@ const Skills = () => {
                 </p>
                 <p className="main-text">
                     You can view my <a href="https://www.linkedin.com/in/morad-elbouchikhi/">Linkedin</a> profile
-                    for more details or <a href="#">Contact Me</a> though this page.
+                    for more details or <a href="#contact-section">Contact Me</a> though this page.
                 </p>
                 <div className="skill-bar">
                     <div className="progress-group">
