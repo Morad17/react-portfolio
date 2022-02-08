@@ -8,6 +8,10 @@ const About = () => {
                 <div className="box-wrapper-2"></div>
                 <div className="about-text">
                     <h1 className="main-title">About Me</h1>
+                    <div id="about-image-mob" className="about-image">
+                    <img className="profile-pic" src={ profilePic } alt="Profile"/>
+                    </div>
+
                     <p className="main-text">
                         Hello there. I am Morad an aspiring full stack web developer. 
                         I have a passion for delivering unique, creative and thoughtfull 
@@ -16,7 +20,7 @@ const About = () => {
                         to make anything that I can envision.
                     </p>
                 </div>
-                <div className="about-image">
+                <div id="about-image" className="about-image">
                     <img className="profile-pic" src={ profilePic } alt="Profile"/>
                 </div>
             </div>

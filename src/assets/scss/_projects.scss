@@ -113,7 +113,27 @@ display: flex;
     @media only screen and (max-width:480px){
     
         .projects-section{
-  
+            
+            .project-row{
+                .project-card-row{
+                    
+                    .project-card-1,
+                    .project-card-2,
+                    .project-card-3{
+                        width: 65vw;
+                        img{
+                            min-height:0;
+                            width: 65vw;
+                        }
+                    }
+                    .project-card-2{
+                        margin: 0;
+                    }
+                    .project-header{
+                        margin-bottom: 0;
+                    }
+                }
+            }
         }
         
-        }
+    }

@@ -216,17 +216,39 @@
   @media(max-width:480px){
   
       .hero{
-         
+          
+        padding: 50vw 5vw 0 0;
+
         .hero-title-row{
 
+          padding-left: 12vw;
           .hero-name{
             font-size: 3.5em;
           }
+          .hero-title{
+            padding-top: 2vh;
+          }
 
-        }
+          .social-icons{
+            padding-right: 10vw;
+            padding-top: 1vh;
+            a{
+              font-size: 40px;
+            }
+            }
+          }
       
         .scroll-down{
           display: none;
+        }
+
+        .contact-button{
+
+          .basic-button{
+            padding: 12px;
+            font-size: 22px;
+            margin-left: 0;
+          }
         }
       }
       }

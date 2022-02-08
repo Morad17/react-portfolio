@@ -32,6 +32,10 @@
                 margin: 0 0 5vh 0;
                 padding: 0;
             }
+            #about-image-mob{
+                display:none;
+            }
+
             .main-text{
                 font-size: 20px;
                 color: #292634;
@@ -216,43 +220,58 @@
   
             .about-row{
 
+                #about-image{
+                    display: none;
+                }
+
                 .box-wrapper-1{
-                    height: 80vh;
-                    width: 80vw;
-                    left: 3vw;
-                    top: 115vh;
+                    height: 96vh;
+                    width: 96vw;
+                    left: 2vw;
+                    top: 128vh;
                 }
                 .box-wrapper-2{
 
-                    top: 117vh;
-                    width: 80vw;
-                    left: 7vw;
-                    height: 80vh;
+                    top: 130vh;
+                    width: 90vw;
+                    left: 5vw;
+                    height: 92vh;
                 }
                 .about-text{
                     padding-top: 0;
-                    padding-left: 11vw;
+                    padding-left: 14vw;
+
+                    #about-image-mob{
+                        display: block;
+                        margin-left: 15vw;
+                    }
 
                     .main-title{
-                        font-size: 3em;
+                        font-size: 4.5em;
+                        margin: 11vh 0 1vh 0;
                     }
                     .main-text{
                         font-size: 16px;
-                        padding-top: 9vh;
+                        padding-top: 4vh;
+                        padding-right: 15vw;
                     }
                 }
                 .about-image{
-                    padding-top: 5vh;
+                    padding-top: 1vh;
                     padding-right: 0;
                     margin-right: 15vw;
                     .profile-pic{
-                        width: 125px;
+                        width: 150px;
                     }
                 }
-
+            }
                 .tech-row{
-                    margin-right: 5vw;
+                    margin-right: 0vw;
+                    margin-left: 5vw;
                     .current-tech-row{
+                        margin-bottom: 4vh;
+                        margin-top: 4vh;
+
                         .heading{
                             
                             h2{
@@ -260,7 +279,7 @@
                             }
                         }
                         img{
-
+                            width: 150px;
                         }
                     }
                     .other-tech-row{
@@ -281,7 +300,6 @@
                         }
                     }   
                 }
-            }
         }
         
         }
