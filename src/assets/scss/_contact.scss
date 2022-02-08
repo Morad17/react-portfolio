@@ -44,6 +44,11 @@
                 line-height: 38px;
                 outline: none;
                 background-color: transparent;
+                cursor: pointer;
+            }
+
+            button:hover{
+                background-color: #dbb852;
             }
         .contact-divider{
             display: flex;

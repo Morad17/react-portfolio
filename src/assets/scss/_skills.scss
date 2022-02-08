@@ -122,8 +122,23 @@
     
     .skills-section{
 
+        padding-top: 3vh;
+        .progress-row{
+            width:50%;
+            padding-right: 3vw;
+            .skill-bar{
+                margin-top: 4vh;
+                .progress-group{
+                    span{
+                        display: block;
+                    }
+                }
+            }
+        }
+
         .timeline-row{
 
+            margin-top: 19vh;
             #card-2{
                 margin-top: 22vh;
             }
@@ -135,7 +150,7 @@
             .timeline-card{
                 width: 20vw;
                 height: 125px;
-                padding: 53px;
+                padding: 33px;
 
                 .title{
                     font-size: 23px;

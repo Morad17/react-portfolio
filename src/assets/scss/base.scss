@@ -23,6 +23,21 @@
     padding: 6px;
 };
 
+.basic-button:hover{
+    background-color: #dbb852;
+    color: black;
+    border-color: black;
+}
+
+.social-icons a:hover{
+    pointer-events: none !important;
+}
+
+.social-icons a:hover{
+    background-color: none;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -124,3 +139,10 @@ $dark-gray: #292634;
     border-radius: 13%;
 }
 
+/// Media Queries ///
+
+@media (max-width: 840px){
+    .App{
+        overflow-x: hidden;
+    }
+}

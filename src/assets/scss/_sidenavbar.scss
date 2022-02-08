@@ -7,16 +7,16 @@
     position: fixed;
     text-align: center;
     z-index: 1111111;
-    display: none;
+    display: block;
     a{
         text-decoration: none;
     }
     //Border Starts Here//
     ul{
-        background-color: #000;
+        background-color: #191919;
         margin-top: 25vh;
         padding: 5px;
-        border-radius: 10px;
+        border-radius: 5px;
     }
     li{
         padding: 8px 6px;
@@ -93,7 +93,7 @@
     @media only screen and (max-width:480px){
     
         .sidenav{
-  
+            display: none;
         }
         
         }

@@ -9,7 +9,7 @@ const SideNavbar = () => {
                     <li><a href="#about-section"><FaIcons.FaRegUserCircle /></a><p>About</p></li>
                     <li><a href="#skills-section"><FaIcons.FaCode /></a><p>Skills</p></li>
                     <li><a href="#projects-section"><FaIcons.FaProjectDiagram /></a><p>Projects</p></li>
-                    <li><a href="#blog-section"><FaIcons.FaBloggerB /></a><p>Blog</p></li>
+                    {/* <li><a href="#blog-section"><FaIcons.FaBloggerB /></a><p>Blog</p></li> */}
                     <li><a href="#contact-section"><FaIcons.FaPaperPlane /></a><p>Contact</p></li>
                 </ul>
             </nav>

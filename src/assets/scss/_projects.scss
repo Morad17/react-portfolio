@@ -85,6 +85,8 @@ display: flex;
     
     .projects-section{
 
+        padding-left: 0;
+        padding-right: 10vw;
         .project-row{
             margin-top: 0vh;
             margin-right: 0vw;
@@ -94,12 +96,19 @@ display: flex;
                 display: flex;
                 flex-direction: column;
 
+                .project-header{
+                    margin-bottom: 0;
+                }
                 .project-card-1,.project-card-2,.project-card-3{
-                    width: 50vw;
+                    width: 45vw;
 
                     img{
-                        width:50vw;
+                        width:45vw;
+                        min-height: 175px;
                     }
+                }
+                .project-card-2{
+                    margin: 0;
                 }
             }
         }
