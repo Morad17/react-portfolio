@@ -150,3 +150,41 @@
         }
         
     }
+
+
+    
+     // Mobile X small Screens //
+    
+    // Optimised for Note 10+ 5G  (360 x 718)//
+
+    @media (max-width:360px){
+
+        .contact-section{
+            
+            .contact-form{
+                form{
+                    margin-top: 2vh;
+                    max-width: 92vw;
+                    padding: 20px 30px;
+                    height: 80vh;
+                    h3{
+                        font-size: 22px;
+                        padding-top: 0;
+                        margin-bottom: 20px;
+                        margin-top: 0;
+                    }
+                    h5{
+                        font-size: 16px;
+                    }
+                    .contact-divider{
+                        flex-direction: column;
+                    }
+                    .button{
+                        margin-top: 10px;
+                        padding: 0;
+                        width: 90px;
+                    }
+                }
+            }
+        }
+    }

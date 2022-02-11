@@ -146,3 +146,47 @@ display: flex;
         }
         
     }
+
+
+     // Mobile X small Screens //
+    
+    // Optimised for Note 10+ 5G  (360 x 718)//
+
+    @media (max-width:360px){
+
+        .projects-section{
+            padding-right: 0;
+            .project-row{
+                .project-heading{
+                    margin-bottom: 0;
+                    margin-top: 1vh;
+                }
+                .project-card-row{
+                    .project-icon{
+                        font-size: 25px;
+                    }
+                    .project-card-1,
+                    .project-card-2,
+                    .project-card-3{
+                        width: 65vw;
+                        img{
+                            min-height:0;
+                            width: 65vw;
+                        }
+                    }
+                    .project-card-2{
+                        margin: 0;
+                    }
+                    .project-header{
+                        font-size: 22px;
+                        margin-bottom: 0;
+                    }
+                    .code-links{
+                        .project-button{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }

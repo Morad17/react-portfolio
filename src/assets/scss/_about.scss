@@ -283,7 +283,7 @@
                         }
                     }
                     .other-tech-row{
-                        margin-right: 3vw !important;
+                        margin-right: 3vw ;
                         .heading{
                             margin-right: 10px;
                             h2{
@@ -296,6 +296,104 @@
                             padding: 10px 6px;
                             img{
                                 width: 60px;
+                            }
+                        }
+                    }   
+                }
+        }
+        
+        }
+
+
+    // Mobile X small Screens //
+    
+    // Optimised for Note 10+ 5G  (360 x 718)//
+
+    @media (max-width:360px){
+    
+        .about-section{
+  
+            .about-row{
+
+                #about-image{
+                    display: none;
+                }
+
+                .box-wrapper-1{
+                    height: 96vh;
+                    width: 96vw;
+                    left: 2vw;
+                    top: 128vh;
+                }
+                .box-wrapper-2{
+
+                    top: 130vh;
+                    width: 90vw;
+                    left: 5vw;
+                    height: 92vh;
+                }
+                .about-text{
+                    padding-top: 0;
+                    padding-left: 14vw;
+
+                    #about-image-mob{
+                        display: block;
+                        margin-left: 15vw;
+                    }
+
+                    .main-title{
+                        font-size: 3em;
+                        margin: 5vh 0 1vh 0;
+                    }
+                    .main-text{
+                        font-size: 14px;
+                        padding-top: 0vh;
+                        padding-right: 15vw;
+                    }
+                }
+                .about-image{
+                    padding-top: 1vh;
+                    padding-right: 0;
+                    margin-right: 15vw;
+                    .profile-pic{
+                        width: 125px;
+                    }
+                }
+            }
+                .tech-row{
+                    margin-right: 0vw;
+                    margin-left: 5vw;
+                    .current-tech-row{
+                        margin-bottom: 4vh;
+                        margin-top: 4vh;
+                        margin-right: 4vw;
+                        .heading{
+                            
+                            h2{
+                                font-size: 18px;
+                            }
+                        }
+                        img{
+                            width: 150px;
+                        }
+                    }
+                    .other-tech-row{
+                        margin-right: -4vw ;
+                        .heading{
+                            margin-right: 10px;
+                            h2{
+                                font-size:18px ;
+                                padding: 0;
+                            }
+                        }
+
+                        .tech-icon{
+                            padding: 10px 6px;
+                            img{
+                                width: 40px;
+                            }
+                            p{
+                                font-size: 13px;
                             }
                         }
                     }   

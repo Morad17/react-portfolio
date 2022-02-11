@@ -267,3 +267,13 @@
         }
       }
       }
+
+      @media(max-width: 360px){
+        .hero{
+          .hero-title-row{
+            .hero-name{
+              font-size:3em;
+            }
+          }
+        }
+      }

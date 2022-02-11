@@ -233,3 +233,17 @@
         }
         
     }
+
+
+     // Mobile X small Screens //
+    
+    // Optimised for Note 10+ 5G  (360 x 718)//
+
+    @media (max-width:360px){
+
+        .skills-section{
+            .timeline-row{
+                display: none;
+            }
+        }
+    }
