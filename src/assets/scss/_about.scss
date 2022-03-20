@@ -214,7 +214,7 @@
     
     // Mobile Screens //
     
-    @media (max-width:480px){
+    @media (min-width:360px) and (max-width:480px){
     
         .about-section{
   
@@ -247,7 +247,7 @@
                     }
 
                     .main-title{
-                        font-size: 4.5em;
+                        font-size: 3em;
                         margin: 11vh 0 1vh 0;
                     }
                     .main-text{
@@ -309,7 +309,7 @@
     
     // Optimised for Note 10+ 5G  (360 x 718)//
 
-    @media (max-width:360px){
+    @media (max-width:359px){
     
         .about-section{
   
