@@ -1,8 +1,9 @@
 import React from 'react'
 
 import afkThumb from '../assets/images/afk-thumb.png';
-import aldenteThumb from '../assets/images/aldente-thumb.png';
 import premierLeague from '../assets/images/premier-league.png';
+import travelInfo from '../assets/images/travel-info-thumb.jpg';
+
 import * as FaIcons from "react-icons/fa"
 import * as DiIcons from "react-icons/di"
 
@@ -12,7 +13,23 @@ const Projects = () => {
             <div className="project-row">
                 <h2 className="project-heading">Latest Projects</h2>
                 <div className="project-card-row">
-                    <div className="project-card-1">
+                <div className="project-card-1">
+                        <h3 className="project-header">Travel Maps Guide</h3>
+                        <img src={travelInfo} alt="aldente"/>
+                        <div className="project-details">
+                            
+                            <div className="project-icon">
+                                <FaIcons.FaReact />
+                                <DiIcons.DiJavascript1 />
+                                <DiIcons.DiCss3 />
+                            </div>
+                            <div className="code-links">
+                                <a target="_blank" href="https://github.com/Morad17/templates-restaurant" className="project-button"  rel="noopener noreferrer">Code</a>
+                                <a target="_blank" href="https://morad17.github.io/templates-restaurant/" className="project-button"  rel="noopener noreferrer">Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project-card-2">
                         <h3 className="project-header">AFK Gamer Store</h3>
                         <img src={afkThumb} alt="afk-gamer"/>
                         <div className="project-details">
@@ -28,7 +45,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="project-card-2">
+                    <div className="project-card-3">
                         <h3 className="project-header">Premier League DB</h3>
                         <img src={premierLeague} alt="premier-league"/>
                         <div className="project-details">
@@ -41,21 +58,6 @@ const Projects = () => {
                             <div className="code-links">
                                 <a href="https://github.com/Morad17/premier-league-ms3" className="project-button" target="_blank" rel="noopener noreferrer">Code</a>
                                 <a href="https://premier-league-ms3.herokuapp.com/" className="project-button" target="_blank" rel="noopener noreferrer">Project</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="project-card-3">
-                        <h3 className="project-header">Aldente Restaurant</h3>
-                        <img src={aldenteThumb} alt="aldente"/>
-                        <div className="project-details">
-                            
-                            <div className="project-icon">
-                                <DiIcons.DiJavascript1 />
-                                <DiIcons.DiCss3 />
-                            </div>
-                            <div className="code-links">
-                                <a target="_blank" href="https://github.com/Morad17/templates-restaurant" className="project-button"  rel="noopener noreferrer">Code</a>
-                                <a target="_blank" href="https://morad17.github.io/templates-restaurant/" className="project-button"  rel="noopener noreferrer">Project</a>
                             </div>
                         </div>
                     </div>
