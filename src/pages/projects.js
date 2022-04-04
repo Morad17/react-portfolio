@@ -24,8 +24,8 @@ const Projects = () => {
                                 <DiIcons.DiCss3 />
                             </div>
                             <div className="code-links">
-                                <a target="_blank" href="https://github.com/Morad17/templates-restaurant" className="project-button"  rel="noopener noreferrer">Code</a>
-                                <a target="_blank" href="https://morad17.github.io/templates-restaurant/" className="project-button"  rel="noopener noreferrer">Project</a>
+                                <a target="_blank" href="https://github.com/Morad17/react-travel-info" className="project-button"  rel="noopener noreferrer">Code</a>
+                                <a target="_blank" href="https://react-travel-adviser-project.netlify.app/" className="project-button"  rel="noopener noreferrer">Project</a>
                             </div>
                         </div>
                     </div>
